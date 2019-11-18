@@ -13,5 +13,6 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0")
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
 add_executable(ex1 ex1/main.cpp)
-add_executable(problem_1 problem_1/main.cpp)
+add_executable(problem_1 problem_1/selected_columns_csv.cpp)
+
 
